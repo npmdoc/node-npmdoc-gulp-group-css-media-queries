@@ -61,12 +61,55 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-group-css-media-queries">module gulp-group-css-media-queries</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-group-css-media-queries.gulp-group-css-media-queries">
+            function <span class="apidocSignatureSpan"></span>gulp-group-css-media-queries
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-group-css-media-queries" id="apidoc.module.gulp-group-css-media-queries">module gulp-group-css-media-queries</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-group-css-media-queries.gulp-group-css-media-queries" id="apidoc.element.gulp-group-css-media-queries.gulp-group-css-media-queries">
+        function <span class="apidocSignatureSpan"></span>gulp-group-css-media-queries
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-group-css-media-queries = function () {
+	return through.obj(function (file, enc, cb) {
+		if (file.isNull()) {
+			this.push(file);
+			return cb();
+		}
+
+		if (file.isStream()) {
+			this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-group-css-media-queries&#x27;, &#x27;Streaming not supported&#x27;));
+			return cb();
+		}
+
+		try {
+			file.contents = new Buffer(gcmq(file.contents.toString()));
+		} catch (err) {
+			this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-group-css-media-queries&#x27;, err));
+		}
+
+		this.push(file);
+		cb();
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
