@@ -1,9 +1,14 @@
-# api documentation for  [gulp-group-css-media-queries (v1.2.0)](https://github.com/avaly/gulp-group-css-media-queries#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-group-css-media-queries.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-group-css-media-queries) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-group-css-media-queries.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-group-css-media-queries)
+# npmdoc-gulp-group-css-media-queries
+
+#### api documentation for  [gulp-group-css-media-queries (v1.2.0)](https://github.com/avaly/gulp-group-css-media-queries#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-group-css-media-queries.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-group-css-media-queries) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-group-css-media-queries.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-group-css-media-queries)
+
 #### CSS postprocessing: group media queries. Useful for postprocessing preprocessed CSS files.
 
-[![NPM](https://nodei.co/npm/gulp-group-css-media-queries.png?downloads=true)](https://www.npmjs.com/package/gulp-group-css-media-queries)
+[![NPM](https://nodei.co/npm/gulp-group-css-media-queries.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-group-css-media-queries)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-group-css-media-queries_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-group-css-media-queries/build/screenCapture.npmPackageListing.svg)
 
@@ -56,13 +61,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "avaly",
-            "email": "github-com@agachi.name"
+            "name": "avaly"
         }
     ],
     "name": "gulp-group-css-media-queries",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/avaly/gulp-group-css-media-queries.git"
@@ -73,16 +76,6 @@
     "version": "1.2.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-group-css-media-queries](#apidoc.module.gulp-group-css-media-queries)
-
-
-
-# <a name="apidoc.module.gulp-group-css-media-queries"></a>[module gulp-group-css-media-queries](#apidoc.module.gulp-group-css-media-queries)
 
 
 
